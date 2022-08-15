@@ -1,1 +1,7 @@
-Code to compute the finite regime cost and asymptotic complexity of generic decoders for interleaved codes.
+Code to compute the finite-regime cost and asymptotic complexity of generic decoders for interleaved codes.
+
+The file ~Interleaved_ISD.nb~
+contains the Mathematica code to compute the asymptotic complexity and generate the plots as in the paper.
+
+The file ~compute-workfactors/interleaved_workfactors__runner.sage~ contains the Sage code to compute the workfactors of CF-based Stern-Dumer, Interleaved Prange and Random Prange for finite parameters as in the paper.
+The code was tested on SageMath version 9.2.
